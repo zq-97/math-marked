@@ -1,0 +1,29 @@
+{
+  "name": "math-marked",
+  "version": "1.0.0",
+  "description": "marked with math support",
+  "author": "张强",
+  "license": "MIT",
+  "main": "marked.js",
+  "files": [
+    "bin",
+    "marked.js"
+  ],
+  "scripts": {
+    "test": "bin/marked",
+    "minify": "uglifyjs --comments -o marked.min.js marked.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zq-97/math-marked"
+  },
+  "bugs": {
+    "url": "https://github.com/zq-97/math-marked/issues"
+  },
+  "keywords": [
+    "markdown",
+    "mathjax",
+    "marked",
+    "html"
+  ]
+}
